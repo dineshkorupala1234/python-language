@@ -65,3 +65,9 @@ age = 20
 s = "not elgible for driving license " if age <= 17 else ("elgible for license")
 print(s)
         
+number = 9
+if number % 2 == 0:
+    print("yes it is even")
+else:
+    print("it is odd")    
+    
